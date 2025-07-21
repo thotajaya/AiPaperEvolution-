@@ -1,0 +1,167 @@
+/* ExamSetup.css */
+
+.examsetup-container {
+  background-color: #f4f4f3;
+  color: #00fff7;
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  border: 2px solid #bec4c4;
+  border-radius: 12px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.examsetup-container h2 {
+  text-align: center;
+  color: #16347c;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2rem;
+  color:#16347c ;
+  margin-bottom: 30px;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.examsetup-container label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #0b0808;
+  font-weight: bold;
+}
+
+.examsetup-container input {
+  width: 100%;
+  padding: 10px;
+  background: #e2e2e8;
+  border: 1px solid #7a7b7b;
+  border-radius: 6px;
+  color: #090808;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Remove number input spinners for Chrome, Safari, Edge */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.question-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.question-group input[type="text"] {
+  flex: 3;
+}
+
+.question-group input[type="number"] {
+  flex: 1;
+}
+
+button {
+  background-color: #FD752C;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: auto;
+}
+
+
+
+button:disabled {
+  background-color: #e1cfc5;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #1c0462;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.upload-header {
+  font-size: 1.5rem;
+  color: #533ce854;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  padding-top: 20px;
+  top: 2px; 
+}
+
+/*.account-button {
+  background-color: #e1d3cc;
+  color: #0f0f1a;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 5px;
+  right: 2px;
+}
+
+.account-button:hover {
+  background-color: hsl(39, 33%, 92%);
+  color: #0f0f1a;
+}*/
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00fff7;
+  font-family: 'Courier New', monospace;
+}
+
+.dots-loader .dot {
+  animation: blink 1.2s infinite;
+}
+
+.dots-loader .dot:nth-child(1) {
+  animation-delay: 0s;
+}
+.dots-loader .dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.dots-loader .dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0%, 80%, 100% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+.dots-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,127 @@
+/* Base Layout */
+
+/* Container */
+.marks-container {
+  width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(241, 247, 248, 0.95);
+  border: 2px solid #bdd4d3;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Header */
+.marks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.marks-header h2 {
+  color: #0e1597;
+}
+
+.account-btn {
+  padding: 10px 20px;
+  border: 2px solid #d84e13;
+  background-color: transparent;
+  color: #d0dbda;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  margin-right: 10px; /* new line added */
+}
+.account-btn:hover {
+  background-color: #abd1cf;
+  color: #0b0c10;
+}
+
+/* Student Info */
+.student-info {
+  text-align: left;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #fcae66;
+ 
+}
+
+/* Table */
+.marks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: rgba(246, 220, 206, 0.4);
+}
+
+.marks-table th,
+.marks-table td {
+  border: 1px solid #8a817d;
+  padding: 12px;
+  color: #141111;
+}
+.marks-table th {
+  background-color: #f4b482;
+}
+
+.marks-table .ai-mark {
+  color: #0f1513;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  font-style: italic;
+  color: #e8a7c1;
+}
+
+/* Result Summary */
+.result-summary {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f4b482;
+  border-radius: 10px;
+  border: 2px solid #afbbbb;
+  font-size: 1.1rem;
+  color: #0c0a0a;
+}
+
+.result-summary p {
+  margin: 10px 0;
+}
+
+/* Back Button */
+.back-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #101817;
+  border: 2px solid #e67935;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+  background-color: #7ca988;
+  color: #0b0c10;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

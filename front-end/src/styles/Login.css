@@ -1,0 +1,239 @@
+/* Body background */
+
+
+/* Main heading */
+.main-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #16347c;
+  margin-bottom: 30px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* Container styling */
+.login-container {
+  width: 400px;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 2px solid #cecece;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(22, 52, 124, 0.15);
+  animation: fadeIn 1s ease-in-out;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* College logo styling */
+.college-logo {
+  width: 200px;
+  height: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+  filter: drop-shadow(0 0 4px #16347c);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Sub-heading */
+.login-container h2 {
+  font-size: 2rem;
+  color: #16347c;
+  margin-bottom: 24px;
+}
+
+/* Input fields */
+.login-container input[type="email"],
+.login-container input[type="password"],
+.login-container input[type="text"] {
+  width: 95%;
+  padding: 12px;
+  margin: 12px 0;
+  background-color: #f2f4f7;
+  border: 2px solid #cecece;
+  border-radius: 8px;
+  color: #000000;
+  outline: none;
+  font-size: 1rem;
+}
+
+.login-container input:focus {
+  border-color: #16347c;
+  box-shadow: 0 0 6px #a3a1f0;
+}
+
+/* Password field wrapper */
+.login-password-field {
+  position: relative;
+  width: 100%;
+}
+
+.login-password-field input {
+  padding-right: 40px;
+}
+
+
+
+/* Eye icon toggle button inside password field */
+/*.login-password-field button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  height: 28px;
+  width: 28px;
+  border: none;
+  background: transparent;
+  color: #3d31aa;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+
+.login-password-field button:hover {
+  color: #302b63;
+  transform: translateY(-50%) scale(1.15);
+}
+.login-password-field button:focus {
+  outline: none;
+  box-shadow: none;
+} */
+ .login-password-field button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    height: 28px;
+    width: 28px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #3d31aa;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-password-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  height: 28px;
+  width: 28px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #3d31aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, transform 0.2s ease;
+
+  /* Remove all browser styles */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+}
+
+.toggle-password-btn:hover {
+  color: #302b63;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.toggle-password-btn:focus,
+.toggle-password-btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: #302b63 !important;
+  background: none !important;
+}
+
+
+
+/* Error message */
+.error {
+  color: #970000;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+/* Login button */
+.login-container > button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #FD752C !important;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 
+  background-color 0.3s ease,
+  transform 0.2s ease,
+  box-shadow 0.3s ease;
+}
+
+.login-container > button:hover {
+  background-color: #b8943f; /* slightly darker shade of gold */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Signup link */
+.login-container p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.login-container a {
+  color: #16347c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

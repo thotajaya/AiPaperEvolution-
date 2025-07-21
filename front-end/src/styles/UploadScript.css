@@ -1,0 +1,195 @@
+h2 {
+  font-size: 2rem;               /* Adjusts the size */
+  font-weight: 700;              /* Bold weight */
+  color: #0c4c8d;                /* Dark slate blue */
+  text-align: center;            /* Centers the text */
+  margin-top: 30px;              /* Space above */
+  margin-bottom: 20px;           /* Space below */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+  letter-spacing: 1px;           /* Slight spacing for emphasis */ /* Decorative underline */
+  padding-bottom: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.upload-container {
+  background-color: #edf1f1;
+  color: #e4d2d2;
+  padding: 30px;
+  max-width: 800px;
+  margin: 15px auto 0 auto;
+  border: 2px solid #f1f0ed;
+  border-radius: 12px;
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+}
+
+/* roll number and name */
+.student-roll-number,
+.student-name {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.student-roll-number label,
+.student-name label {
+  color: #121210;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.student-roll-number input,
+.student-name input {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  color: #0b0e0e;
+  background-color: rgba(212, 208, 208, 0.75);
+  border: 2px solid #141312;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.student-roll-number input:focus,
+.student-name input:focus {
+  border-color: #050605;
+  background-color: rgba(173, 167, 167, 0.85);
+}
+
+/* Navigation Buttons Header */
+.upload-header {
+  position: relative;
+  height: 0;
+}
+
+.back-button,
+.account-button {
+  position: absolute;
+  bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #FD752C;
+  color: #FD752C;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-button {
+  left: 20px;
+}
+
+.account-button {
+  right: 20px;
+}
+
+.back-button:hover,
+.account-button:hover {
+  background-color: #FD752C;
+  color: #002147;
+}
+
+.upload-title {
+  text-align: center;
+  font-size: 28px;
+  color: #16347c;
+  margin-bottom: 20px;
+}
+
+.dropzone {
+  border: 2px dashed #10100f;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.dropzone.dragging {
+  background-color: #101213;
+  box-shadow: 0 0 20px #FD752C;
+}
+
+.dropzone.active {
+  border-color: #004466;
+  box-shadow: 0 0 30px #004466;
+}
+
+.dropzone p {
+  margin: 0;
+  font-size: 16px;
+  color: #010101;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.cancel,
+.view,
+.submit {
+  background-color: #004466;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cancel:hover {
+  background-color: #b85102;
+  border:#004466 ;
+  color: white;
+}
+
+.view:hover {
+  background-color: #FD752C;
+  color: #002147;
+}
+
+.submit:hover {
+  background-color: #deefe1;
+  color: #002147;
+}
+
+.popup-alert {
+  background-color: #FD752C;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  animation: popupFade 1.5s ease-in-out;
+  margin-top: 15px;
+}
+
+@keyframes popupFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
