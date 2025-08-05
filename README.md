@@ -39,6 +39,15 @@
 ## Visuals
 ![a1](https://github.com/user-attachments/assets/b5b4f4cc-6fdd-4a1b-b98c-7f1e913612c9)
 
+![a2](https://github.com/user-attachments/assets/3ce86608-0343-4fc0-9733-64392d78ce51)
+
+![a3](https://github.com/user-attachments/assets/8c3ab592-cb04-483f-a7b9-cb32b6c55891)
+
+![a4](https://github.com/user-attachments/assets/8925cd37-6bf0-4dea-a6c9-39638aa16d14)
+
+
+
+
 ## 🏁 Final Conclusion
     The AI-Based Exam Paper Evaluation System provides an efficient, intelligent, and scalable solution for educational institutions. By combining OCR, Llama3, and full-stack development, it enhances evaluation       accuracy, reduces manual workload, and supports data-driven insights into student performance.
 
