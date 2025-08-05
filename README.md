@@ -41,9 +41,12 @@
 
 ![a2](https://github.com/user-attachments/assets/3ce86608-0343-4fc0-9733-64392d78ce51)
 
-
+![pa](https://github.com/user-attachments/assets/d71d9104-d889-41c0-8b96-733346eaf47b)
 
 ![a4](https://github.com/user-attachments/assets/8925cd37-6bf0-4dea-a6c9-39638aa16d14)
+
+![a7](https://github.com/user-attachments/assets/dff798f4-2478-4b86-9091-1b4b1abac334)
+
 
 
 
